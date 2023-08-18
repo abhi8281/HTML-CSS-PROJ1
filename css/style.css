@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+    
+}
+
+
+
+#uni{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 40px;
+    float: left;
+    margin-left: 250px;
+    color: rgb(112, 168, 77);
+    font-family: 'Arvo', serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: end;
+    gap: 30px;
+    margin-top: 20px;
+    margin-right: 100px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+}
+
+nav ul li:hover{
+    color: orange;
+    cursor: pointer; ;
+    
+}
+
+.GadgetHub{
+    float: right;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.leftMain{
+
+    width: 100%;
+    margin-left: -200px;
+    margin-top: 10%;
+}
+
+.leftMain h1{
+    font-size: 60px;
+    font-family: 'Arvo', serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+}
+
+.leftMain p {
+    margin: 10px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Arvo', serif;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.leftMain button{
+    padding: 15px 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+
+.leftMain button:hover{
+    color: orange;
+}
+
+.Right-main{
+    display: block;
+    width: 30%; 
+    margin-top: 10%;
+   
+}
+
+.img1{
+    display: flex;
+    float: left;
+    margin: 0%;
+    padding-top: 0%;
+    width: 60%;
+    margin-top: 0%;
+    margin-bottom: 50%;
+  
+  
+}
+
+.img2{
+    display: flex;
+    float: left;
+    margin-top: 70%;
+    margin-bottom: -40%;
+    gap: 10px;
+
+}
+
+.Right-main img{
+    border-radius: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.whats-app {
+    position: fixed;
+    width: 80px;
+    height: 85px;
+    bottom: 40px;
+    right: 30px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    z-index: 100;
+}
+
+.fa-xl{
+    margin-top: 50px;
+    color: #25d366
+}
+
+
